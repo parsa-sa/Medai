@@ -1,1 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Red+Hat+Display:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+html,
+body,
+#root,
+* {
+  font-family: "Manrope", sans-serif !important;
+}
+
+/* سبک‌تر کردن تیترها و متن‌های بولد خروجی Figma */
+.font-bold,
+.font-semibold,
+[class*="Bold"],
+[class*="SemiBold"],
+[class*="font-semibold"],
+[class*="font-bold"] {
+  font-weight: 500 !important;
+}
+
+/* متن‌های معمولی طبیعی‌تر */
+.font-medium,
+[class*="Medium"] {
+  font-weight: 500 !important;
+}
+
+.font-normal,
+[class*="Regular"] {
+  font-weight: 400 !important;
+}
